@@ -13,8 +13,6 @@ using DiscordRpcDemo;
 Then, head over to the Discord Developer Portal. You can go there by clicking [here.](https://discord.com/developers/applications)
 After that, double click your form, and paste in the following code on the form load.
 ```csharp
-this.handlers = default(DiscordRpc.EventHandlers);
-            DiscordRpc.Initialize("Your Client ID", ref this.handlers, true, null);
             this.handlers = default(DiscordRpc.EventHandlers);
             DiscordRpc.Initialize("Your Client ID", ref this.handlers, true, null);
             this.presence.details = "Your Text Here";
